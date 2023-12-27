@@ -4,6 +4,8 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
+import '../components/drawer.dart';
+
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
 
@@ -58,7 +60,7 @@ class _HomePageState extends State<HomePage>{
            ),
           ],
       ),
-
+drawer: MyDrawer(),
       body:Center(
         child: Column(
           children: [
