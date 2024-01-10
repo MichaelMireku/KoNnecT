@@ -2,8 +2,12 @@
 A cross platform messenger app,
 
 ## Features
-end-to-end encryption
+-Direct messages 
 
-community messages wall
+-End-to-end encryption
+
+-Community messages wall
+
+
 
 
